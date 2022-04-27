@@ -1,0 +1,559 @@
+<!--
+  Generated template for the CategoriesPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+</ion-header>
+
+<ion-content padding>
+  <ion-img width="350" height="200" src="assets/images/img18.jpg"></ion-img>
+  <ion-searchbar showCancelButton="always">Search...</ion-searchbar>
+
+
+
+
+
+  <ion-segment [(ngModel)]="segment" scrollable>
+    <ion-segment-button value="Phones">
+      <ion-icon name="md-call"></ion-icon>
+    </ion-segment-button>
+    <ion-segment-button value="Tablette">
+      <ion-icon name="md-tablet-landscape"></ion-icon>
+    </ion-segment-button>
+    <ion-segment-button value="Smart-TV">
+      <ion-img src="assets/images/tvicon1.png"></ion-img>
+    </ion-segment-button>
+    <ion-segment-button value="Smart-Watch">
+      <ion-icon name="md-watch"></ion-icon>
+    </ion-segment-button>
+    <ion-segment-button value="pc">
+      <ion-img src="assets/images/computericon1.png"></ion-img>
+    </ion-segment-button>
+    
+    
+  </ion-segment>
+
+
+  <div [ngSwitch]="segment">
+    
+     <!------*************SMART-PHONES************************--->
+      <ion-list no-padding *ngSwitchCase="'Phones'">
+        <ion-item no-padding>
+          <ion-thumbnail item-start style="padding: 0; margin: 0 15px 0 0;">
+            <img src="assets/images/smartphone/infinix.jpg" />
+          </ion-thumbnail>
+          <h2>Acer Model 1234 -£200</h2>
+          <button ion-button round (click)="GotoDetails()">Buy</button>
+        </ion-item>
+    
+        <ion-item no-padding>
+          <ion-thumbnail item-start style="padding: 0; margin: 0 15px 0 0;">
+            <img src="assets/images/smartphone/infinix.jpg" />
+          </ion-thumbnail>
+          <h2>Acer Model 1234-£200</h2>
+          <button ion-button round>Buy</button>
+        </ion-item>
+    
+        <ion-item no-padding>
+          <ion-thumbnail item-start style="padding: 0; margin: 0 15px 0 0;">
+            <img src="assets/images/smartphone/infinix.jpg" />
+          </ion-thumbnail>
+          <h2>Acer Model 1234-£200</h2>
+          <button ion-button round>Buy</button>
+        </ion-item>
+    
+        <ion-item no-padding>
+          <ion-thumbnail item-start style="padding: 0; margin: 0 15px 0 0;">
+            <img src="assets/images/smartphone/infinix.jpg" />
+          </ion-thumbnail>
+          <h2>Acer Model 1234-£200</h2>
+          <button ion-button round>Buy</button>
+        </ion-item>
+    
+        <ion-item no-padding>
+          <ion-thumbnail item-start style="padding: 0; margin: 0 15px 0 0;">
+            <img src="assets/images/smartphone/infinix.jpg" />
+          </ion-thumbnail>
+          <h2>Acer Model 1234-£200</h2>
+          <button ion-button round>Buy</button>
+        </ion-item>
+    
+        <ion-item no-padding>
+          <ion-thumbnail item-start style="padding: 0; margin: 0 15px 0 0;">
+            <img src="assets/images/smartphone/infinix.jpg" />
+          </ion-thumbnail>
+          <h2>Acer Model 1234-£200</h2>
+          <button ion-button round>Buy</button>
+        </ion-item>
+    
+        <ion-item no-padding>
+          <ion-thumbnail item-start style="padding: 0; margin: 0 15px 0 0;">
+            <img src="assets/images/smartphone/infinix.jpg" />
+          </ion-thumbnail>
+          <h2>Acer Model 1234-£200</h2>
+          <button ion-button round>Buy</button>
+        </ion-item>
+    
+        <ion-item no-padding>
+          <ion-thumbnail item-start style="padding: 0; margin: 0 15px 0 0;">
+            <img src="assets/images/smartphone/infinix.jpg" />
+          </ion-thumbnail>
+          <h2>Acer Model 1234-£200</h2>
+          <button ion-button round>Buy</button>
+        </ion-item>
+    
+        <ion-item no-padding>
+          <ion-thumbnail item-start style="padding: 0; margin: 0 15px 0 0;">
+            <img src="assets/images/smartphone/infinix.jpg" />
+          </ion-thumbnail>
+          <h2>Acer Model 1234-£200</h2>
+          <button ion-button round>Buy</button>
+        </ion-item>
+    
+        <ion-item no-padding>
+          <ion-thumbnail item-start style="padding: 0; margin: 0 15px 0 0;">
+            <img src="assets/images/smartphone/infinix.jpg" />
+          </ion-thumbnail>
+          <h2>Acer Model 1234-£200</h2>
+          <button ion-button round>Buy</button>
+        </ion-item>
+    
+        <ion-item no-padding>
+          <ion-thumbnail item-start style="padding: 0; margin: 0 15px 0 0;">
+            <img src="assets/images/smartphone/infinix.jpg" />
+          </ion-thumbnail>
+          <h2>Acer Model 1234-£200</h2>
+          <button ion-button round>Buy</button>
+        </ion-item>
+    
+        <ion-item no-padding>
+          <ion-thumbnail item-start style="padding: 0; margin: 0 15px 0 0;">
+            <img src="assets/images/smartphone/infinix.jpg" />
+          </ion-thumbnail>
+          <h2>Acer Model 1234-£200</h2>
+          <button ion-button round>Buy</button>
+        </ion-item>
+      </ion-list>
+
+
+
+    
+
+
+
+
+
+
+
+
+
+<!---------************************Tablette*************************************************************-->
+
+<ion-list no-padding *ngSwitchCase="'Tablette'">
+  <ion-item no-padding>
+    <ion-thumbnail item-start style="padding: 0; margin: 0 15px 0 0;">
+      <img src="assets/images/tablette/samsung.jpg" />
+    </ion-thumbnail>
+    <h2>Acer Model 1234 -£200</h2>
+    <button ion-button round>Buy</button>
+  </ion-item>
+
+  <ion-item no-padding>
+    <ion-thumbnail item-start style="padding: 0; margin: 0 15px 0 0;">
+      <img src="assets/images/tablette/1.jpg" />
+    </ion-thumbnail>
+    <h2>Acer Model 1234-£200</h2>
+    <button ion-button round>Buy</button>
+  </ion-item>
+
+  <ion-item no-padding>
+    <ion-thumbnail item-start style="padding: 0; margin: 0 15px 0 0;">
+      <img src="assets/images/tablette/2.jpg" />
+    </ion-thumbnail>
+    <h2>Acer Model 1234-£200</h2>
+    <button ion-button round>Buy</button>
+  </ion-item>
+
+  <ion-item no-padding>
+    <ion-thumbnail item-start style="padding: 0; margin: 0 15px 0 0;">
+      <img src="assets/images/tablette/3.jpg" />
+    </ion-thumbnail>
+    <h2>Acer Model 1234-£200</h2>
+    <button ion-button round>Buy</button>
+  </ion-item>
+
+  <ion-item no-padding>
+    <ion-thumbnail item-start style="padding: 0; margin: 0 15px 0 0;">
+      <img src="assets/images/tablette/4.jpg" />
+    </ion-thumbnail>
+    <h2>Acer Model 1234-£200</h2>
+    <button ion-button round>Buy</button>
+  </ion-item>
+
+  <ion-item no-padding>
+    <ion-thumbnail item-start style="padding: 0; margin: 0 15px 0 0;">
+      <img src="assets/images/tablette/5.jpg" />
+    </ion-thumbnail>
+    <h2>Acer Model 1234-£200</h2>
+    <button ion-button round>Buy</button>
+  </ion-item>
+
+  <ion-item no-padding>
+    <ion-thumbnail item-start style="padding: 0; margin: 0 15px 0 0;">
+      <img src="assets/images/tablette/6.jpg" />
+    </ion-thumbnail>
+    <h2>Acer Model 1234-£200</h2>
+    <button ion-button round>Buy</button>
+  </ion-item>
+
+  <ion-item no-padding>
+    <ion-thumbnail item-start style="padding: 0; margin: 0 15px 0 0;">
+      <img src="assets/images/tablette/7.jpg" />
+    </ion-thumbnail>
+    <h2>Acer Model 1234-£200</h2>
+    <button ion-button round>Buy</button>
+  </ion-item>
+
+  <ion-item no-padding>
+    <ion-thumbnail item-start style="padding: 0; margin: 0 15px 0 0;">
+      <img src="assets/images/tablette/8.jpg" />
+    </ion-thumbnail>
+    <h2>Acer Model 1234-£200</h2>
+    <button ion-button round>Buy</button>
+  </ion-item>
+
+  <ion-item no-padding>
+    <ion-thumbnail item-start style="padding: 0; margin: 0 15px 0 0;">
+      <img src="assets/images/tablette/9.jpg" />
+    </ion-thumbnail>
+    <h2>Acer Model 1234-£200</h2>
+    <button ion-button round>Buy</button>
+  </ion-item>
+
+  <ion-item no-padding>
+    <ion-thumbnail item-start style="padding: 0; margin: 0 15px 0 0;">
+      <img src="assets/images/tablette/10.jpg" />
+    </ion-thumbnail>
+    <h2>Acer Model 1234-£200</h2>
+    <button ion-button round>Buy</button>
+  </ion-item>
+
+  <ion-item no-padding>
+    <ion-thumbnail item-start style="padding: 0; margin: 0 15px 0 0;">
+      <img src="assets/images/tablette/10.jpg" />
+    </ion-thumbnail>
+    <h2>Acer Model 1234-£200</h2>
+    <button ion-button round>Buy</button>
+  </ion-item>
+</ion-list>
+
+<!-----**************************CATEGORY SMART-TV**********************************-->
+<ion-list no-padding *ngSwitchCase="'Smart-TV'">
+  <ion-item no-padding>
+    <ion-thumbnail item-start style="padding: 0; margin: 0 15px 0 0;">
+      <img src="assets/images/smarttv/1.jpg" />
+    </ion-thumbnail>
+    <h2>Acer Model 1234 -£200</h2>
+    <button ion-button round>Buy</button>
+  </ion-item>
+
+  <ion-item no-padding>
+    <ion-thumbnail item-start style="padding: 0; margin: 0 15px 0 0;">
+      <img src="assets/images/smarttv/2.jpg" />
+    </ion-thumbnail>
+    <h2>Acer Model 1234-£200</h2>
+    <button ion-button round>Buy</button>
+  </ion-item>
+
+  <ion-item no-padding>
+    <ion-thumbnail item-start style="padding: 0; margin: 0 15px 0 0;">
+      <img src="assets/images/smarttv/3.jpg" />
+    </ion-thumbnail>
+    <h2>Acer Model 1234-£200</h2>
+    <button ion-button round>Buy</button>
+  </ion-item>
+
+  <ion-item no-padding>
+    <ion-thumbnail item-start style="padding: 0; margin: 0 15px 0 0;">
+      <img src="assets/images/smarttv/4.jpg" />
+    </ion-thumbnail>
+    <h2>Acer Model 1234-£200</h2>
+    <button ion-button round>Buy</button>
+  </ion-item>
+
+  <ion-item no-padding>
+    <ion-thumbnail item-start style="padding: 0; margin: 0 15px 0 0;">
+      <img src="assets/images/smarttv/5.jpg" />
+    </ion-thumbnail>
+    <h2>Acer Model 1234-£200</h2>
+    <button ion-button round>Buy</button>
+  </ion-item>
+
+  <ion-item no-padding>
+    <ion-thumbnail item-start style="padding: 0; margin: 0 15px 0 0;">
+      <img src="assets/images/smarttv/6.jpg" />
+    </ion-thumbnail>
+    <h2>Acer Model 1234-£200</h2>
+    <button ion-button round>Buy</button>
+  </ion-item>
+
+  <ion-item no-padding>
+    <ion-thumbnail item-start style="padding: 0; margin: 0 15px 0 0;">
+      <img src="assets/images/smarttv/7.jpg" />
+    </ion-thumbnail>
+    <h2>Acer Model 1234-£200</h2>
+    <button ion-button round>Buy</button>
+  </ion-item>
+
+  <ion-item no-padding>
+    <ion-thumbnail item-start style="padding: 0; margin: 0 15px 0 0;">
+      <img src="assets/images/smarttv/8.jpg" />
+    </ion-thumbnail>
+    <h2>Acer Model 1234-£200</h2>
+    <button ion-button round>Buy</button>
+  </ion-item>
+
+  <ion-item no-padding>
+    <ion-thumbnail item-start style="padding: 0; margin: 0 15px 0 0;">
+      <img src="assets/images/smarttv/9.jpg" />
+    </ion-thumbnail>
+    <h2>Acer Model 1234-£200</h2>
+    <button ion-button round>Buy</button>
+  </ion-item>
+
+  <ion-item no-padding>
+    <ion-thumbnail item-start style="padding: 0; margin: 0 15px 0 0;">
+      <img src="assets/images/smarttv/10.jpg" />
+    </ion-thumbnail>
+    <h2>Acer Model 1234-£200</h2>
+    <button ion-button round>Buy</button>
+  </ion-item>
+
+  <ion-item no-padding>
+    <ion-thumbnail item-start style="padding: 0; margin: 0 15px 0 0;">
+      <img src="assets/images/smarttv/10.jpg" />
+    </ion-thumbnail>
+    <h2>Acer Model 1234-£200</h2>
+    <button ion-button round>Buy</button>
+  </ion-item>
+
+  <ion-item no-padding>
+    <ion-thumbnail item-start style="padding: 0; margin: 0 15px 0 0;">
+      <img src="assets/images/smarttv/1.jpg" />
+    </ion-thumbnail>
+    <h2>Acer Model 1234-£200</h2>
+    <button ion-button round>Buy</button>
+  </ion-item>
+</ion-list>
+
+    <!-------*******************Smart-Watch***********************------->
+    <ion-list no-padding *ngSwitchCase="'Smart-Watch'">
+      <ion-item no-padding>
+        <ion-thumbnail item-start style="padding: 0; margin: 0 15px 0 0;">
+          <img src="assets/images/smartwatch/1.jpg" />
+        </ion-thumbnail>
+        <h2>Acer Model 1234 -£200</h2>
+        <button ion-button round>Buy</button>
+      </ion-item>
+  
+      <ion-item no-padding>
+        <ion-thumbnail item-start style="padding: 0; margin: 0 15px 0 0;">
+          <img src="assets/images/smartwatch/2.jpg" />
+        </ion-thumbnail>
+        <h2>Acer Model 1234-£200</h2>
+        <button ion-button round>Buy</button>
+      </ion-item>
+  
+      <ion-item no-padding>
+        <ion-thumbnail item-start style="padding: 0; margin: 0 15px 0 0;">
+          <img src="assets/images/smartwatch/3.jpg" />
+        </ion-thumbnail>
+        <h2>Acer Model 1234-£200</h2>
+        <button ion-button round>Buy</button>
+      </ion-item>
+  
+      <ion-item no-padding>
+        <ion-thumbnail item-start style="padding: 0; margin: 0 15px 0 0;">
+          <img src="assets/images/smartwatch/4.jpg" />
+        </ion-thumbnail>
+        <h2>Acer Model 1234-£200</h2>
+        <button ion-button round>Buy</button>
+      </ion-item>
+  
+      <ion-item no-padding>
+        <ion-thumbnail item-start style="padding: 0; margin: 0 15px 0 0;">
+          <img src="assets/images/smartwatch/5.jpg" />
+        </ion-thumbnail>
+        <h2>Acer Model 1234-£200</h2>
+        <button ion-button round>Buy</button>
+      </ion-item>
+  
+      <ion-item no-padding>
+        <ion-thumbnail item-start style="padding: 0; margin: 0 15px 0 0;">
+          <img src="assets/images/smartwatch/6.jpg" />
+        </ion-thumbnail>
+        <h2>Acer Model 1234-£200</h2>
+        <button ion-button round>Buy</button>
+      </ion-item>
+  
+      <ion-item no-padding>
+        <ion-thumbnail item-start style="padding: 0; margin: 0 15px 0 0;">
+          <img src="assets/images/smartwatch/7.jpg" />
+        </ion-thumbnail>
+        <h2>Acer Model 1234-£200</h2>
+        <button ion-button round>Buy</button>
+      </ion-item>
+  
+      <ion-item no-padding>
+        <ion-thumbnail item-start style="padding: 0; margin: 0 15px 0 0;">
+          <img src="assets/images/smartwatch/8.jpg" />
+        </ion-thumbnail>
+        <h2>Acer Model 1234-£200</h2>
+        <button ion-button round>Buy</button>
+      </ion-item>
+  
+      <ion-item no-padding>
+        <ion-thumbnail item-start style="padding: 0; margin: 0 15px 0 0;">
+          <img src="assets/images/smartwatch/9.jpg" />
+        </ion-thumbnail>
+        <h2>Acer Model 1234-£200</h2>
+        <button ion-button round>Buy</button>
+      </ion-item>
+  
+      <ion-item no-padding>
+        <ion-thumbnail item-start style="padding: 0; margin: 0 15px 0 0;">
+          <img src="assets/images/smartwatch/10.jpg" />
+        </ion-thumbnail>
+        <h2>Acer Model 1234-£200</h2>
+        <button ion-button round>Buy</button>
+      </ion-item>
+  
+      <ion-item no-padding>
+        <ion-thumbnail item-start style="padding: 0; margin: 0 15px 0 0;">
+          <img src="assets/images/smartwatch/11.jpg" />
+        </ion-thumbnail>
+        <h2>Acer Model 1234-£200</h2>
+        <button ion-button round>Buy</button>
+      </ion-item>
+  
+      <ion-item no-padding>
+        <ion-thumbnail item-start style="padding: 0; margin: 0 15px 0 0;">
+          <img src="assets/images/smartwatch/12.jpg" />
+        </ion-thumbnail>
+        <h2>Acer Model 1234-£200</h2>
+        <button ion-button round>Buy</button>
+      </ion-item>
+    </ion-list>
+
+<!--****************category PC*******************************************************-->
+<ion-list no-padding *ngSwitchCase="'pc'">
+  <ion-item no-padding>
+    <ion-thumbnail item-start style="padding: 0; margin: 0 15px 0 0;">
+      <img src="assets/images/pc/1.jpg" />
+    </ion-thumbnail>
+    <h2>Acer Model 1234 -£200</h2>
+    <button ion-button round (Onclick)="GotoDetails()">Buy</button>
+  </ion-item>
+
+  <ion-item no-padding>
+    <ion-thumbnail item-start style="padding: 0; margin: 0 15px 0 0;">
+      <img src="assets/images/pc/2.jpg" />
+    </ion-thumbnail>
+    <h2>Acer Model 1234-£200</h2>
+    <button ion-button round>Buy</button>
+  </ion-item>
+
+  <ion-item no-padding>
+    <ion-thumbnail item-start style="padding: 0; margin: 0 15px 0 0;">
+      <img src="assets/images/pc/3.jpg" />
+    </ion-thumbnail>
+    <h2>Acer Model 1234-£200</h2>
+    <button ion-button round>Buy</button>
+  </ion-item>
+
+  <ion-item no-padding>
+    <ion-thumbnail item-start style="padding: 0; margin: 0 15px 0 0;">
+      <img src="assets/images/pc/4.jpg" />
+    </ion-thumbnail>
+    <h2>Acer Model 1234-£200</h2>
+    <button ion-button round>Buy</button>
+  </ion-item>
+
+  <ion-item no-padding>
+    <ion-thumbnail item-start style="padding: 0; margin: 0 15px 0 0;">
+      <img src="assets/images/pc/5.jpg" />
+    </ion-thumbnail>
+    <h2>Acer Model 1234-£200</h2>
+    <button ion-button round>Buy</button>
+  </ion-item>
+
+  <ion-item no-padding>
+    <ion-thumbnail item-start style="padding: 0; margin: 0 15px 0 0;">
+      <img src="assets/images/pc/6.jpg" />
+    </ion-thumbnail>
+    <h2>Acer Model 1234-£200</h2>
+    <button ion-button round>Buy</button>
+  </ion-item>
+
+  <ion-item no-padding>
+    <ion-thumbnail item-start style="padding: 0; margin: 0 15px 0 0;">
+      <img src="assets/images/pc/7.jpg" />
+    </ion-thumbnail>
+    <h2>Acer Model 1234-£200</h2>
+    <button ion-button round>Buy</button>
+  </ion-item>
+
+  <ion-item no-padding>
+    <ion-thumbnail item-start style="padding: 0; margin: 0 15px 0 0;">
+      <img src="assets/images/pc/8.jpg" />
+    </ion-thumbnail>
+    <h2>Acer Model 1234-£200</h2>
+    <button ion-button round>Buy</button>
+  </ion-item>
+
+  <ion-item no-padding>
+    <ion-thumbnail item-start style="padding: 0; margin: 0 15px 0 0;">
+      <img src="assets/images/pc/9.jpg" />
+    </ion-thumbnail>
+    <h2>Acer Model 1234-£200</h2>
+    <button ion-button round>Buy</button>
+  </ion-item>
+
+  <ion-item no-padding>
+    <ion-thumbnail item-start style="padding: 0; margin: 0 15px 0 0;">
+      <img src="assets/images/pc/10.jpg" />
+    </ion-thumbnail>
+    <h2>Acer Model 1234-£200</h2>
+    <button ion-button round >Buy</button>
+  </ion-item>
+
+  <ion-item no-padding>
+    <ion-thumbnail item-start style="padding: 0; margin: 0 15px 0 0;">
+      <img src="assets/images/pc/10.jpg" />
+    </ion-thumbnail>
+    <h2>Acer Model 1234-£200</h2>
+    <button ion-button round>Buy</button>
+  </ion-item>
+
+  <ion-item no-padding>
+    <ion-thumbnail item-start style="padding: 0; margin: 0 15px 0 0;">
+      <img src="assets/images/pc/10.jpg" />
+    </ion-thumbnail>
+    <h2>Acer Model 1234-£200</h2>
+    <button ion-button round>Buy</button>
+  </ion-item>
+</ion-list>
+
+  </div>
+
+
+
+
+
+
+
+
+</ion-content>
